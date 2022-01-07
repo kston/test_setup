@@ -31,7 +31,7 @@ def test_regex_slaps():
 
 @pytest.mark.xfail
 def test_divide_by_zero():
-    assert 1 / 0 == 1
+    assert 1 / 0 == 0
 
 
 def test_invalid_slap():
